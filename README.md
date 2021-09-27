@@ -1,5 +1,11 @@
 # example
 
+npm run generate - 
+
+93 mobile pagespeed
+100 desktop pagespeed
+
+
 ## Build Setup
 
 ```bash
