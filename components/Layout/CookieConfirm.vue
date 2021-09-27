@@ -12,7 +12,7 @@
             {{ $t('gdpr_cookie_confirm.description') }}
             <nuxt-link
               :to="localePath('/')"
-              class="btn btn-primary"
+              class=""
               :aria-label="
                 $t('gdpr_cookie_confirm.learn_more') + ' about Cookies'
               "
@@ -22,7 +22,7 @@
         </div>
         <div class="block m-2">
           <a
-            class="px-4 py-2 font-bold leading-10 border-2  nounderline text-bluegray border-bluegray hover:text-bluegray2 hover:border-bluegray2"
+            class="btn btn-primary"
             :aria-label="$t('common.accept')"
             @click.prevent="accept"
             >{{ $t('common.accept') }}</a

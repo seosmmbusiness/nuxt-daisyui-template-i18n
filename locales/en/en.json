@@ -12,6 +12,9 @@
     "btn2": "Go to Page 3",
     "btn3": "Go to Page 4"
   },
+  "common": {
+    "accept": "Accept"
+  },
   "gdpr_cookie_confirm": {
     "description": "This website uses cookies to ensure you get the best experience on our website.",
     "learn_more": "Learn more"
