@@ -1,0 +1,19 @@
+{
+  "menu": {
+    "example": "example 1",
+    "example2": "example 2",
+    "example3": "example 3",
+    "example4": "example 4"
+  },
+  "homePage": {
+    "title": "Welcome to homepage",
+    "p": "Page 1",
+    "btn1": "Go to Page 2",
+    "btn2": "Go to Page 3",
+    "btn3": "Go to Page 4"
+  },
+  "gdpr_cookie_confirm": {
+    "description": "This website uses cookies to ensure you get the best experience on our website.",
+    "learn_more": "Learn more"
+  }
+}

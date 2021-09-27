@@ -1,0 +1,49 @@
+:root {
+  @apply select-none p-0 m-0;
+}
+
+/* -----------------------------------------------------------------------------
+                                Nuxt Router Classes
+-------------------------------------------------------------------------------- */
+
+.nuxt-link-exact-active {
+  @apply text-primary;
+
+  &:hover {
+    @apply text-primary-focus;
+  }
+}
+.desktop,
+.mobile {
+  & .nuxt-link-active {
+    @apply text-primary;
+
+    &:hover {
+      @apply text-primary-focus;
+    }
+  }
+}
+
+/* -----------------------------------------------------------------------------
+                                Main Animations
+-------------------------------------------------------------------------------- */
+/* Menu animation */
+.slide-enter-active,
+.slide-leave-active {
+  @apply max-h-screen overflow-hidden transition-all duration-150 ease-in-out;
+}
+.slide-enter,
+.slide-leave-to {
+  @apply transition-all duration-150 ease-in-out max-h-0;
+}
+
+.slide-fade-enter-active {
+  @apply transition-all duration-150 ease-in;
+}
+.slide-fade-leave-active {
+  @apply transition-all duration-150 ease-out;
+}
+.slide-fade-enter,
+.slide-fade-leave-to {
+  @apply transform translate-y-5 opacity-0;
+}

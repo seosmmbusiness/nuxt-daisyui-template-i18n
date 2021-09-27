@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @variants responsive {
+    .wrapper {
+      @apply max-w-6xl m-auto;
+    }
+  }
+}
+
+@layer base {
+  @import 'main.pcss';
+
+  picture {
+    & img {
+      @apply object-cover;
+    }
+  }
+  .btn-primary {
+    @apply bg-gradient-to-b from-primary-focus to-primary hover:bg-gradient-to-t;
+  }
+  .btn-secondary {
+    @apply bg-gradient-to-b from-secondary-focus to-secondary hover:bg-gradient-to-t;
+  }
+  .btn-neutral {
+    @apply bg-gradient-to-b from-neutral-focus to-neutral hover:bg-gradient-to-t;
+  }
+}
